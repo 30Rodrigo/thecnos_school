@@ -1,0 +1,70 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ /* Cabeçalho */
+ header {
+   padding: 16px 0;
+   background-color: #230747;
+   color: #ecf0f1;
+ }
+ 
+ header nav li {
+   display: inline;
+   margin-left: 16px;
+   font-size: 16px;
+ }
+ 
+ header nav li a {
+   color: #ecf0f1;
+   text-decoration: none;
+ }
+ 
+ .container {
+   max-width: 1280px;
+   width: 100%;
+   margin: 0 auto; 
+   padding: 0 10px;
+   text-align: center;
+ }
+ 
+ header .container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ 
+ /* Seção "Quem Somos" */
+section  {
+   background-color: #ecf0f1;
+   color: #230747;
+   display:flex;
+   width: 80%;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 20px
+   /* Adiciona um padding externo à seção */
+ }
+ 
+
+
+ section h2 {
+   margin-bottom: 20px;
+   font-size: 28px;
+  
+ }
+ 
+ .school-front img {
+   max-width: 18px;
+   max-width: 80%;
+   /* Sem margin-bottom para colar na imagem no parágrafo */
+ }
+ 
+ section p {
+   text-align: justify;
+   line-height: 1.5;
+   padding: 15px; /* Adiciona um padding interno ao parágrafo */
+} 
